@@ -1,32 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras Formatações</title>
+    <title>Listas ordenadas e não ordenadas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código-fonte / Pré-formatação</h2>
-    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
-    <pre>
-        <code>
-    num = int(input('Digite um número'))
-    if num % 2 == 0:
-        print(f'O número {num} é PAR')
-    else:
-        print(f'O número {num} é ÍMPAR)
-    print('Fim do programa')
-        </code>
-    </pre>
-    
-    <h2>Citações simples</h2>
-    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
-    <h2>Citações completas</h2>
-    <p>Segundo Jeff Noble, no seu livro HTML para Leigos: <blockquote>A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.</blockquote></p>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
-    <h2>Texto invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+    <ul>
+        <li>Nintendinho</li>
+            <ol>
+                <li>Mario Bros</li>
+                    <ul type="square">
+                        <li>Super Mario Bros 3</li>
+                        <li>Mario: Lost Levels</li>
+                    </ul>
+                <li>Ninja Gaiden</li>
+                    <ul type="square">
+                        <li>Ninja Gaiden III</li>
+                    </ul>
+            </ol>
+        <li>Super Nintendo</li>
+            <ol>
+                <li>Super Mario</li>
+                <li>Donkey Kong</li>
+                    <ul type="square">
+                        <li>Dokney Kong Country III</li>
+                        <li>Diddy's Kong Quest</li>
+                    </ul>
+            </ol>
+        <li>Playstation 1</li>
+            <ol>
+                <li>Final Fantasy</li>
+                    <ul type="square">
+                        <li>Final Fantasy VII</li>
+                        <li>Final Fantasy IX</li>
+                    </ul>
+                <li>Castlevania</li>
+                    <ul type="square">
+                        <li>Symphony of the Night</li>
+                    </ul>
+            </ol>
+    </ul>
 </body>
 </html>
