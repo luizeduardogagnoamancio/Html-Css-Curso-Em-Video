@@ -1,0 +1,33 @@
+body {
+    font:  14pt Arial;
+}
+
+#primeiro-p {
+    text-align: left;
+}
+
+#segundo-p {
+    text-align: right;
+}
+
+#terceiro-p {
+    text-align: center;
+}
+
+#quarto-p {
+    text-align: justify;
+}
+
+/* Medidas Absolutas
+    cm, mm, in, px, pt, pc
+
+   Medidas Relativas
+   em, ex, rem, vw, vh, %
+
+   De fonte weight
+   lighter normal bold bolder
+
+
+
+
+*/
